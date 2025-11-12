@@ -1,0 +1,19 @@
+class Profesor {
+  String nombre;
+  String materia;
+  int edad;
+  int simpatia;
+  int suspensos;
+
+  // Constructor
+  Profesor(this.nombre, this.materia, this.edad, this.simpatia, this.suspensos);
+
+  void reganar() {
+    print("El profesor $nombre está regañando a los alumnos.");
+  }
+
+  void aumentarSimpatia() {
+    simpatia += 1;
+    print("La simpatía del profesor $nombre ha aumentado a $simpatia.");
+  }
+}
